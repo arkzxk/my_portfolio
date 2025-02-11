@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(10, 10, 10);
+  font-family: 'Century Gothic', 'Arial', 'sans-serif';
+  margin: 0px;
+}
+
+.head {
+  border: 1px dashed white;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  font-variant-caps: all-petite-caps;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border: 1px dashed white;
+  text-align: center;
+}
+
+.menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  /* border: 1px dashed white; */
+}
+
+.button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 30px;
+  font-variant: small-caps;
+}
+
+.home {
+  margin-left: 0px;
+}
